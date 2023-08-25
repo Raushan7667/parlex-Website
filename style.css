@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: "poppins","sans-serif"; */
+    font-family: "poppins","sans-serif";
     /* border: 1px dotted red; */
 }
 #wrapper{
@@ -19,6 +19,7 @@
     height:100%;
     transform-style: preserve-3d;
     z-index: -1;
+    margin-left: -2rem;
 }
 .background{
     transform: translateZ(-40px) scale(5);
@@ -48,15 +49,16 @@ section{
 }
 .secHeading{
     font-size: 5rem;
-    padding: 0 5rem;
+    padding:0 5rem;
     margin: 0rem ;
-    background-color: black;
+   
 }
 .text{
     font-size: 1.5rem;
     padding: 0 5rem;
     margin: 0rem ;
-    background-color: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem ;
   
 }
 .bg{
